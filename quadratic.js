@@ -22,5 +22,8 @@ let x2 = (-b - d) / (2 * a);
 console.log("The value of x1 is: " + x1);
 console.log("The value of x2 is: " + x2);
 
-console.log("This is b square: " + b**2);
-console.log("This is 4ac: " + 4 * a * c);
+let b2 = b**2;
+let ac = 4 * a * c;
+
+console.log("This is b squared: " + b2);
+console.log("This is 4ac: " + ac);
