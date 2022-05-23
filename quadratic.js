@@ -14,6 +14,12 @@ let a = 15;
 let b = 27;
 let c = 11;
 
+let b2 = b**2;
+let ac = 4 * a * c;
+
+console.log("This is b squared: " + b2);
+console.log("This is 4ac: " + ac);
+
 let d = Math.sqrt(b**2 - (4 * a * c));
 
 let x1 = (-b + d) / (2 * a);
@@ -22,8 +28,3 @@ let x2 = (-b - d) / (2 * a);
 console.log("The value of x1 is: " + x1);
 console.log("The value of x2 is: " + x2);
 
-let b2 = b**2;
-let ac = 4 * a * c;
-
-console.log("This is b squared: " + b2);
-console.log("This is 4ac: " + ac);

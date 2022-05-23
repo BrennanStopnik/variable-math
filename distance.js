@@ -16,5 +16,4 @@ let x3 = (x2 - x1)**2 + (y2 - y1)**2;
 let z = Math.sqrt(x3)
 z = +z.toFixed(3);
 
-
 console.log("The distance between the points (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + z);

@@ -7,4 +7,5 @@ Log out how the remainder that is left over when the first number is divided by 
 let a = 16;
 let b = 3;
 let c = (a % b);
+
 console.log("The remainder of " + a + " divided by " + b + " is " + c + ".");

@@ -5,4 +5,5 @@ Below this, write a line of code that displays some greeting to that name (i.e.:
 */
 
 let name = "Brennan";
+
 console.log("Hey " + name + "! What the story morning glory?")
